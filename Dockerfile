@@ -1,3 +1,4 @@
-FROM ruby:2.3.3
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
-gem install jekyll bundler
+FROM jekyll/jekyll
+ENTRYPOINT sh -c 'jekyll serve -s /opt/app --watch'
+WORKDIR /opt/app
+EXPOSE 4000

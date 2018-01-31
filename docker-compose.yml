@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
   bash:
     build: .
@@ -7,3 +7,13 @@ services:
       - .:/opt/app
     ports:
       - "3000:3000"
+
+  api:
+    image: jekyll/jekyll
+    container_name: github-blog-local
+    volumes:
+      - ./:/usr/src/app
+    working_dir: /usr/src/app
+    command: sh -c 'jekyll serve -s /usr/src/app --watch'
+    ports:
+      - "4000:4000"
