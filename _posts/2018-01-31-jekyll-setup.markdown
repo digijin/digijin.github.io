@@ -21,4 +21,7 @@ followed by
 sh -c 'jekyll serve -s /opt/app --watch'
 {% endhighlight %}
 
+Then after looking around a bit I discovered why my docker-compose wasn't mapping ports; `docker-compose run is to execute a one-off command on a container and to prevent conflicts, it will (by default) not map the ports.` over [here][docker-run], which makes this all kinda irrelevant! Such is dev I guess.
+
 [blog-post]: https://cardano.github.io/blog/2016/11/29/creating-an-engineering-blog
+[docker-run]: https://github.com/docker/compose/issues/1259

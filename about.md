@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is a blog about javascript and game development and maybe whatever else I'm thinking about that's somewhat tech related.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm building a game! It doesn't really have a name yet but you can try it out at [this site][platformer-game].
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Give it some time to download, its not terribly big but not super small either.
 
-
-[jekyll-organization]: https://github.com/jekyll
+[platformer-game]: http://platformer.digijin.com
