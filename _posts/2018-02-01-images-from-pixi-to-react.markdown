@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting image from pixi to react"
 date:   2018-02-01 11:42 +0000
-categories: blog
+categories: pixi
 ---
 
 so I had a bunch of images I'm bringing into PIXI for my project and I also wanted to use them in some react ui that I set up a while ago - still deciding whether I want to keep react or not, but anyway...
